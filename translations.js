@@ -42,6 +42,10 @@ const translations = {
         'brands.plugplay.title': 'Plug & Play',
         'brands.plugplay.desc': 'Custom harnesses for factory integration',
 
+        // Version switcher
+        'version.desktop': '💻 Desktop Version',
+        'version.mobile': '📱 Mobile Version',
+
         // Contact section
         'contact.title': 'Get Your Custom Quote',
         'contact.heading': 'Contact Us',
@@ -122,6 +126,10 @@ const translations = {
     },
 
     uk: {
+        // Перемикач версій
+        'version.desktop': '💻 Версія для ПК',
+        'version.mobile': '📱 Мобільна версія',
+
         // Навігація
         'nav.home': 'Головна',
         'nav.packages': 'Пакети',
@@ -243,6 +251,10 @@ const translations = {
     },
 
     de: {
+        // Versionsumschalter
+        'version.desktop': '💻 Desktop-Version',
+        'version.mobile': '📱 Mobile Version',
+
         // Navigation
         'nav.home': 'Startseite',
         'nav.packages': 'Pakete',

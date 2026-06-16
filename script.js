@@ -7,6 +7,7 @@ let currentLanguage = localStorage.getItem('language') || 'en';
 // Apply language on page load
 document.addEventListener('DOMContentLoaded', () => {
     setLanguage(currentLanguage);
+    initVersionSwitcher();
 });
 
 // Language switcher buttons
@@ -486,3 +487,50 @@ const observer = new IntersectionObserver((entries) => {
 });
 
 packageCards.forEach(card => observer.observe(card));
+
+// ============================================
+// VERSION SWITCHER (Mobile/Desktop)
+// ============================================
+
+function initVersionSwitcher() {
+    const versionBtn = document.getElementById('versionToggle');
+    const isDesktopMode = localStorage.getItem('viewMode') === 'desktop';
+
+    // Apply saved preference
+    if (isDesktopMode) {
+        document.body.classList.add('desktop-mode');
+        updateVersionButton(true);
+    }
+
+    // Toggle version on button click
+    versionBtn.addEventListener('click', () => {
+        const isCurrentlyDesktop = document.body.classList.contains('desktop-mode');
+
+        if (isCurrentlyDesktop) {
+            // Switch to mobile
+            document.body.classList.remove('desktop-mode');
+            localStorage.setItem('viewMode', 'mobile');
+            updateVersionButton(false);
+            // Reset zoom
+            document.querySelector('meta[name="viewport"]').setAttribute('content',
+                'width=device-width, initial-scale=1.0');
+        } else {
+            // Switch to desktop
+            document.body.classList.add('desktop-mode');
+            localStorage.setItem('viewMode', 'desktop');
+            updateVersionButton(true);
+            // Allow zoom out for desktop view on mobile
+            document.querySelector('meta[name="viewport"]').setAttribute('content',
+                'width=1200, user-scalable=yes');
+        }
+    });
+}
+
+function updateVersionButton(isDesktop) {
+    const btn = document.getElementById('versionToggle');
+    const key = isDesktop ? 'version.mobile' : 'version.desktop';
+
+    if (translations[currentLanguage] && translations[currentLanguage][key]) {
+        btn.textContent = translations[currentLanguage][key];
+    }
+}

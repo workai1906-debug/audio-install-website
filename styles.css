@@ -590,40 +590,144 @@ footer {
     }
 }
 
+/* Version Switcher */
+.version-switcher {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1500;
+    display: none; /* Hidden by default, shown on mobile */
+}
+
+.version-btn {
+    background: var(--secondary-color);
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 50px;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(231, 76, 60, 0.4);
+    transition: all 0.3s;
+    font-size: 0.95rem;
+}
+
+.version-btn:hover {
+    background: #c0392b;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(231, 76, 60, 0.5);
+}
+
+/* Desktop Mode - Force desktop layout on mobile */
+body.desktop-mode {
+    min-width: 1200px;
+}
+
+body.desktop-mode .version-switcher {
+    display: block !important;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
-    .nav-links {
-        display: none;
+    /* Show version switcher on mobile */
+    .version-switcher {
+        display: block;
     }
 
-    .hero-content h2 {
+    /* Mobile-specific styles (only when NOT in desktop mode) */
+    body:not(.desktop-mode) .nav-links {
+        flex-direction: column;
+        gap: 0.5rem;
+        margin-top: 1rem;
+    }
+
+    body:not(.desktop-mode) .navbar .container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    body:not(.desktop-mode) .language-switcher {
+        margin-left: 0;
+        margin-top: 0.5rem;
+    }
+
+    body:not(.desktop-mode) .hero {
+        padding: 100px 15px 60px;
+        margin-top: 60px;
+    }
+
+    body:not(.desktop-mode) .hero-content h2 {
         font-size: 2rem;
     }
 
-    .packages-grid {
-        grid-template-columns: 1fr;
+    body:not(.desktop-mode) .hero-content p {
+        font-size: 1.1rem;
     }
 
-    .contact-content {
+    body:not(.desktop-mode) .packages-grid {
         grid-template-columns: 1fr;
+        gap: 1.5rem;
     }
 
-    .brand-filter {
+    body:not(.desktop-mode) .package-image {
+        height: 280px;
+    }
+
+    body:not(.desktop-mode) .package-image img {
+        object-fit: contain; /* Don't crop images on mobile */
+        background: white;
+    }
+
+    body:not(.desktop-mode) .contact-content {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    body:not(.desktop-mode) .brand-filter {
         flex-direction: column;
         align-items: stretch;
+        gap: 0.5rem;
     }
 
-    .filter-btn {
+    body:not(.desktop-mode) .filter-btn {
         width: 100%;
+    }
+
+    body:not(.desktop-mode) .modal-content {
+        width: 95%;
+        max-height: 95vh;
+    }
+
+    body:not(.desktop-mode) .modal-body {
+        padding: 1rem;
+    }
+
+    body:not(.desktop-mode) .modal-close {
+        top: 10px;
+        right: 15px;
+        font-size: 2rem;
     }
 }
 
 @media (max-width: 480px) {
-    .hero-content h2 {
+    body:not(.desktop-mode) .hero-content h2 {
+        font-size: 1.6rem;
+    }
+
+    body:not(.desktop-mode) .section-title {
         font-size: 1.8rem;
     }
 
-    .section-title {
-        font-size: 2rem;
+    body:not(.desktop-mode) .logo h1 {
+        font-size: 1.4rem;
+    }
+
+    body:not(.desktop-mode) .package-info h3 {
+        font-size: 1.2rem;
+    }
+
+    body:not(.desktop-mode) .lang-btn {
+        padding: 5px 10px;
+        font-size: 0.85rem;
     }
 }
