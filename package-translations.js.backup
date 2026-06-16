@@ -1,0 +1,407 @@
+// Complete package details translations
+const packageTranslations = {
+    en: {
+        'no21': {
+            title: 'BMW Sound System',
+            subtitle: '',
+            components: [
+                'Gladen Aerospace 165 BMW - 2-way component speakers (front doors)',
+                'Gladen Aerospace 130 BMW - Coaxial speakers (rear deck)',
+                'Mosconi Gladen Pico 8|12 DSP - 8-channel digital amplifier with 12 presets',
+                'BMW-specific Plug & Play wiring harness (no cutting required)',
+                'High-quality OFC speaker cables',
+                'Mounting hardware and installation accessories'
+            ],
+            features: [
+                'Complete sound upgrade for BMW vehicles - from basic to premium audio',
+                'Plug & Play installation - works with all factory BMW head units',
+                'Retains all factory functions: steering wheel controls, iDrive, parking sensors',
+                '8-channel DSP with time alignment, 31-band equalizer, and crossover control',
+                'Compact Pico amplifier designed to fit under BMW seats',
+                'German-engineered Gladen speakers with superior sound clarity',
+                'Professional tuning profiles included for immediate premium sound',
+                'No visible modifications - maintains factory aesthetics'
+            ],
+            specs: {
+                'Amplifier Model': 'Mosconi Gladen Pico 8|12 DSP',
+                'Power Output': '4 x 70W RMS @ 4Ω',
+                'DSP Channels': '8 input / 12 output',
+                'Front Speakers': 'Gladen Aerospace 165 BMW (6.5" component)',
+                'Rear Speakers': 'Gladen Aerospace 130 BMW (5.25" coaxial)',
+                'Frequency Response': '35Hz - 22kHz',
+                'Sensitivity': '91dB @ 1W/1m',
+                'Compatible BMW Models': '1/2/3/4/5/X Series (2005-2025)',
+                'Installation Location': 'Under seat (amplifier)',
+                'Warranty': '2 years manufacturer warranty'
+            },
+            installation: 'Complete Plug & Play system using BMW-specific connectors. No cutting or splicing of factory wiring. Professional installation recommended (3-4 hours). Includes DSP tuning and calibration. System integrates seamlessly with all BMW factory electronics including iDrive, navigation, and premium audio options.'
+        },
+        'vag': {
+            title: 'VW / Seat / Skoda Sound System',
+            subtitle: 'Gladen SoundUP VAG Complete Package',
+            components: [
+                'Mosconi Gladen Pico 4|10 DSP - 4-channel digital amplifier with subwoofer output',
+                'Gladen Audio HG 200 Subwoofer - 200mm (8") high-performance bass driver',
+                'Custom-fit sealed subwoofer enclosure for VAG vehicles',
+                'Gladen Alpha 165 - 2-way component system (front doors)',
+                'Gladen Alpha 130 - Coaxial speakers (rear deck)',
+                'VAG-specific Plug & Play wiring harness (VW/Seat/Skoda)',
+                'High-quality speaker and power cables',
+                'Complete mounting and installation hardware'
+            ],
+            features: [
+                'Complete sound transformation for Volkswagen, Seat, and Skoda vehicles',
+                'Powerful 200mm subwoofer adds deep, controlled bass without losing trunk space',
+                'Compact sealed enclosure designed specifically for VAG trunk layouts',
+                '4-channel DSP amplifier with dedicated subwoofer channel and tuning',
+                'Premium Gladen Alpha speakers replace all factory speakers',
+                'Plug & Play installation using factory VW/Seat/Skoda connectors',
+                'Factory radio and steering wheel controls fully retained',
+                'Professional DSP tuning for optimal frequency response and imaging',
+                'German engineering and build quality throughout'
+            ],
+            specs: {
+                'Amplifier Model': 'Mosconi Gladen Pico 4|10 DSP',
+                'Channel Power': '4 x 55W RMS @ 4Ω',
+                'Subwoofer Channel': '1 x 200W RMS @ 4Ω',
+                'Subwoofer Driver': 'Gladen HG 200 (200mm / 8")',
+                'Subwoofer Power Handling': '200W RMS / 400W Peak',
+                'Front Speakers': 'Gladen Alpha 165 (6.5" component)',
+                'Rear Speakers': 'Gladen Alpha 130 (5.25" coaxial)',
+                'Frequency Range': '28Hz - 22kHz (complete system)',
+                'Enclosure Type': 'Sealed MDF - custom VAG fit',
+                'DSP Features': 'Time alignment, EQ, crossovers, phase control',
+                'Compatible Models': 'VW Golf VI/VII/VIII, Passat B7/B8, Tiguan, Touran / Seat Leon, Ibiza, Ateca / Skoda Octavia, Superb, Kodiaq (2010+)',
+                'Installation Time': '5-6 hours professional',
+                'Warranty': '2 years manufacturer warranty'
+            },
+            installation: 'Professional installation highly recommended for optimal results. System uses VAG-specific Plug & Play connectors - no cutting of factory wiring. Subwoofer enclosure mounts in trunk using factory mounting points. DSP tuning and system calibration included. Installation time: 5-6 hours. Maintains all factory functions including Bluetooth, navigation, and parking sensors.'
+        },
+        'no22': {
+            title: 'BMW Sound System',
+            subtitle: 'Package No.22 - CLASSE',
+            components: ['Gladen Aerospace 165 BMW speakers', 'Gladen RS 130 BMW speakers', 'Mosconi Gladen DSP 6to8', 'BMW plug & play harness', 'Premium cables'],
+            features: ['High-performance speakers', 'Advanced DSP processing', 'Factory integration', 'German quality'],
+            specs: {'Power Output': '8x65W RMS', 'Front Speakers': 'Aerospace 165', 'Rear Speakers': 'RS 130'},
+            installation: 'Plug & Play. Professional installation 4-5 hours.'
+        },
+        'no23': {
+            title: 'BMW Sound System',
+            subtitle: 'Package No.23 - CLASSE',
+            components: ['Gladen Alpha 165 BMW', 'Gladen Alpha 130 BMW', 'Mosconi AS 100.4', 'DSP 4to6 processor', 'BMW connectors'],
+            features: ['Premium Alpha speakers', 'Separate DSP and amplifier', 'Professional processing'],
+            specs: {'Amplifier Power': '4x100W @ 4Ω', 'DSP': '4in/6out'},
+            installation: 'Professional installation 5-6 hours.'
+        },
+        'no24': {
+            title: 'BMW Sound System',
+            subtitle: 'Package No.24 - CLASSE',
+            components: ['Gladen ONE 165 BMW', 'Gladen ONE 130 BMW', 'Mosconi Gladen One 120.4 DSP', 'BMW harness'],
+            features: ['Flagship ONE series', 'Integrated DSP amplifier', 'Reference performance'],
+            specs: {'Power Output': '4x120W RMS', 'Distortion': '<0.01%'},
+            installation: 'Premium installation 6-7 hours.'
+        },
+        'no242': {
+            title: 'BMW Sound System',
+            subtitle: 'Package No.242 - CLASSE',
+            components: ['Gladen Aerospace 165 BMW-2', 'Aerospace 100 center', 'Pico 8|12 DSP', 'Complete harness'],
+            features: ['3-way front stage', 'Center channel imaging', 'Audiophile quality'],
+            specs: {'Configuration': '3-way + rear', 'Channels': '8'},
+            installation: 'Expert installation 7-8 hours.'
+        },
+        'no25': {
+            title: 'BMW Sound System',
+            subtitle: 'Package No.25 - CLASSE',
+            components: ['Gladen RS 165 BMW', 'Gladen RS-X 130 BMW', 'Mosconi Zero 4 DSP', 'OFC cables'],
+            features: ['Competition grade RS series', 'Ultra-low distortion', 'Reference transparency'],
+            specs: {'Power': '4x100W @ 2Ω', 'Distortion': '<0.005%'},
+            installation: 'Audiophile installation 6-8 hours.'
+        },
+        'no26': {
+            title: 'BMW Sound System',
+            subtitle: 'Package No.26 - CLASSE',
+            components: ['Gladen Aerospace 165 BMW-3', 'Aerospace 130 BMW-3', 'DSP 8to12 Pro', 'Universal harness'],
+            features: ['Latest Aerospace generation', '12-channel DSP', 'Network streaming'],
+            specs: {'DSP Outputs': '12 channels', 'Processing': '96kHz/32-bit'},
+            installation: 'Master installation 8-10 hours.'
+        },
+        'pico': {
+            title: 'BMW Compact System',
+            subtitle: 'Gladen Pico Package',
+            components: ['Gladen Aerospace 165 BMW', 'Aerospace 130 BMW', 'Pico 8|12 DSP', 'Under-seat brackets'],
+            features: ['Ultra-compact design', 'Under-seat installation', 'No trunk space needed'],
+            specs: {'Size': '195x132x48mm', 'Weight': '1.2kg'},
+            installation: 'Simple installation 3-4 hours.'
+        }
+    },
+
+    uk: {
+        'no21': {
+            title: 'Аудіосистема BMW',
+            subtitle: '',
+            components: [
+                'Gladen Aerospace 165 BMW - 2-компонентні динаміки (передні двері)',
+                'Gladen Aerospace 130 BMW - Коаксіальні динаміки (задня полиця)',
+                'Mosconi Gladen Pico 8|12 DSP - 8-канальний цифровий підсилювач з 12 пресетами',
+                'BMW-специфічна проводка Plug & Play (без різання)',
+                'Високоякісні акустичні кабелі OFC',
+                'Кріпильна фурнітура та аксесуари для встановлення'
+            ],
+            features: [
+                'Повне покращення звуку для автомобілів BMW - від базового до преміум аудіо',
+                'Встановлення Plug & Play - працює з усіма штатними магнітолами BMW',
+                'Зберігає всі заводські функції: кнопки на кермі, iDrive, паркувальні датчики',
+                '8-канальний DSP з вирівнюванням часу, 31-смуговим еквалайзером та кросовером',
+                'Компактний підсилювач Pico розроблений для установки під сидіння BMW',
+                'Німецькі динаміки Gladen з вищою чіткістю звуку',
+                'Професійні профілі налаштування для негайного преміум звуку',
+                'Без видимих модифікацій - зберігає заводську естетику'
+            ],
+            specs: {
+                'Модель Підсилювача': 'Mosconi Gladen Pico 8|12 DSP',
+                'Вихідна Потужність': '4 x 70Вт RMS @ 4Ω',
+                'Канали DSP': '8 входів / 12 виходів',
+                'Передні Динаміки': 'Gladen Aerospace 165 BMW (6.5" компонентні)',
+                'Задні Динаміки': 'Gladen Aerospace 130 BMW (5.25" коаксіальні)',
+                'Частотний Діапазон': '35Гц - 22кГц',
+                'Чутливість': '91дБ @ 1Вт/1м',
+                'Сумісні Моделі BMW': '1/2/3/4/5/X Series (2005-2025)',
+                'Місце Встановлення': 'Під сидінням (підсилювач)',
+                'Гарантія': '2 роки гарантії виробника'
+            },
+            installation: 'Повна система Plug & Play з використанням BMW-специфічних роз\'ємів. Без різання або сплайсингу заводської проводки. Рекомендується професійна установка (3-4 години). Включає налаштування DSP та калібрування. Система бездоганно інтегрується з усією заводською електронікою BMW, включаючи iDrive, навігацію та преміум аудіо опції.'
+        },
+        'vag': {
+            title: 'Аудіосистема VW / Seat / Skoda',
+            subtitle: 'Gladen SoundUP VAG Повний Пакет',
+            components: [
+                'Mosconi Gladen Pico 4|10 DSP - 4-канальний цифровий підсилювач з виходом на сабвуфер',
+                'Gladen Audio HG 200 Subwoofer - 200мм (8") високопродуктивний басовий драйвер',
+                'Корпус сабвуфера закритого типу спеціально для VAG автомобілів',
+                'Gladen Alpha 165 - 2-компонентна система (передні двері)',
+                'Gladen Alpha 130 - Коаксіальні динаміки (задня полиця)',
+                'VAG-специфічна проводка Plug & Play (VW/Seat/Skoda)',
+                'Високоякісні акустичні та силові кабелі',
+                'Повний комплект кріплення та встановлення'
+            ],
+            features: [
+                'Повна трансформація звуку для автомобілів Volkswagen, Seat та Skoda',
+                'Потужний 200мм сабвуфер додає глибокий контрольований бас без втрати місця в багажнику',
+                'Компактний закритий корпус розроблений спеціально для багажників VAG',
+                '4-канальний DSP підсилювач з виділеним каналом сабвуфера та налаштуванням',
+                'Преміальні динаміки Gladen Alpha замінюють всі штатні динаміки',
+                'Встановлення Plug & Play з використанням штатних роз\'ємів VW/Seat/Skoda',
+                'Штатна магнітола та кнопки на кермі повністю зберігаються',
+                'Професійне налаштування DSP для оптимальної частотної характеристики та образності',
+                'Німецька інженерія та якість збірки'
+            ],
+            specs: {
+                'Модель Підсилювача': 'Mosconi Gladen Pico 4|10 DSP',
+                'Потужність Каналів': '4 x 55Вт RMS @ 4Ω',
+                'Канал Сабвуфера': '1 x 200Вт RMS @ 4Ω',
+                'Драйвер Сабвуфера': 'Gladen HG 200 (200мм / 8")',
+                'Потужність Сабвуфера': '200Вт RMS / 400Вт Пік',
+                'Передні Динаміки': 'Gladen Alpha 165 (6.5" компонентні)',
+                'Задні Динаміки': 'Gladen Alpha 130 (5.25" коаксіальні)',
+                'Частотний Діапазон': '28Гц - 22кГц (повна система)',
+                'Тип Корпусу': 'Закритий MDF - спеціальний для VAG',
+                'Функції DSP': 'Вирівнювання часу, EQ, кросовери, фазовий контроль',
+                'Сумісні Моделі': 'VW Golf VI/VII/VIII, Passat B7/B8, Tiguan, Touran / Seat Leon, Ibiza, Ateca / Skoda Octavia, Superb, Kodiaq (2010+)',
+                'Час Встановлення': '5-6 годин професійно',
+                'Гарантія': '2 роки гарантії виробника'
+            },
+            installation: 'Настійно рекомендується професійна установка для оптимальних результатів. Система використовує VAG-специфічні роз\'єми Plug & Play - без різання штатної проводки. Корпус сабвуфера встановлюється в багажнику з використанням штатних точок кріплення. Включає налаштування DSP та калібрування системи. Час встановлення: 5-6 годин. Зберігає всі заводські функції, включаючи Bluetooth, навігацію та паркувальні датчики.'
+        },
+        'no22': {
+            title: 'Аудіосистема BMW',
+            subtitle: 'Пакет No.22 - CLASSE',
+            components: ['Динаміки Gladen Aerospace 165 BMW', 'Динаміки Gladen RS 130 BMW', 'Mosconi Gladen DSP 6to8', 'BMW проводка plug & play', 'Преміум кабелі'],
+            features: ['Високопродуктивні динаміки', 'Розширена обробка DSP', 'Заводська інтеграція', 'Німецька якість'],
+            specs: {'Вихідна Потужність': '8x65Вт RMS', 'Передні Динаміки': 'Aerospace 165', 'Задні Динаміки': 'RS 130'},
+            installation: 'Plug & Play. Професійна установка 4-5 годин.'
+        },
+        'no23': {
+            title: 'Аудіосистема BMW',
+            subtitle: 'Пакет No.23 - CLASSE',
+            components: ['Gladen Alpha 165 BMW', 'Gladen Alpha 130 BMW', 'Mosconi AS 100.4', 'DSP 4to6 процесор', 'BMW роз\'єми'],
+            features: ['Преміальні динаміки Alpha', 'Окремий DSP та підсилювач', 'Професійна обробка'],
+            specs: {'Потужність Підсилювача': '4x100Вт @ 4Ω', 'DSP': '4вх/6вих'},
+            installation: 'Професійна установка 5-6 годин.'
+        },
+        'no24': {
+            title: 'Аудіосистема BMW',
+            subtitle: 'Пакет No.24 - CLASSE',
+            components: ['Gladen ONE 165 BMW', 'Gladen ONE 130 BMW', 'Mosconi Gladen One 120.4 DSP', 'BMW проводка'],
+            features: ['Флагманська серія ONE', 'Інтегрований DSP підсилювач', 'Еталонна продуктивність'],
+            specs: {'Вихідна Потужність': '4x120Вт RMS', 'Спотворення': '<0.01%'},
+            installation: 'Преміум установка 6-7 годин.'
+        },
+        'no242': {
+            title: 'Аудіосистема BMW',
+            subtitle: 'Пакет No.242 - CLASSE',
+            components: ['Gladen Aerospace 165 BMW-2', 'Aerospace 100 центр', 'Pico 8|12 DSP', 'Повна проводка'],
+            features: ['3-смугова фронтальна сцена', 'Центральний канал образності', 'Аудіофільська якість'],
+            specs: {'Конфігурація': '3-смугова + тил', 'Канали': '8'},
+            installation: 'Експертна установка 7-8 годин.'
+        },
+        'no25': {
+            title: 'Аудіосистема BMW',
+            subtitle: 'Пакет No.25 - CLASSE',
+            components: ['Gladen RS 165 BMW', 'Gladen RS-X 130 BMW', 'Mosconi Zero 4 DSP', 'OFC кабелі'],
+            features: ['Змагальна серія RS', 'Ультранизькі спотворення', 'Еталонна прозорість'],
+            specs: {'Потужність': '4x100Вт @ 2Ω', 'Спотворення': '<0.005%'},
+            installation: 'Аудіофільська установка 6-8 годин.'
+        },
+        'no26': {
+            title: 'Аудіосистема BMW',
+            subtitle: 'Пакет No.26 - CLASSE',
+            components: ['Gladen Aerospace 165 BMW-3', 'Aerospace 130 BMW-3', 'DSP 8to12 Pro', 'Універсальна проводка'],
+            features: ['Нове покоління Aerospace', '12-канальний DSP', 'Мережевий стрімінг'],
+            specs: {'Виходи DSP': '12 каналів', 'Обробка': '96кГц/32-біт'},
+            installation: 'Майстерна установка 8-10 годин.'
+        },
+        'pico': {
+            title: 'Компактна Система BMW',
+            subtitle: 'Gladen Pico Package',
+            components: ['Gladen Aerospace 165 BMW', 'Aerospace 130 BMW', 'Pico 8|12 DSP', 'Кронштейни під сидіння'],
+            features: ['Ультракомпактний дизайн', 'Установка під сидінням', 'Не займає місце в багажнику'],
+            specs: {'Розмір': '195x132x48мм', 'Вага': '1.2кг'},
+            installation: 'Проста установка 3-4 години.'
+        }
+    },
+
+    de: {
+        'no21': {
+            title: 'BMW Sound-System',
+            subtitle: '',
+            components: [
+                'Gladen Aerospace 165 BMW - 2-Wege-Komponentenlautsprecher (Fronttüren)',
+                'Gladen Aerospace 130 BMW - Koaxiallautsprecher (Heckablage)',
+                'Mosconi Gladen Pico 8|12 DSP - 8-Kanal Digitalverstärker mit 12 Presets',
+                'BMW-spezifisches Plug & Play Kabelset (kein Schneiden erforderlich)',
+                'Hochwertige OFC Lautsprecherkabel',
+                'Montagematerial und Installationszubehör'
+            ],
+            features: [
+                'Komplettes Sound-Upgrade für BMW Fahrzeuge - von Basis zu Premium Audio',
+                'Plug & Play Installation - funktioniert mit allen BMW Werksradios',
+                'Behält alle Werksfunktionen: Lenkradbedienung, iDrive, Parksensoren',
+                '8-Kanal DSP mit Time Alignment, 31-Band Equalizer und Crossover-Steuerung',
+                'Kompakter Pico Verstärker für Einbau unter BMW Sitzen konzipiert',
+                'Deutsche Gladen Lautsprecher mit überragender Klangklarheit',
+                'Professionelle Tuning-Profile für sofortigen Premium-Sound enthalten',
+                'Keine sichtbaren Modifikationen - behält Werksästhetik bei'
+            ],
+            specs: {
+                'Verstärker Modell': 'Mosconi Gladen Pico 8|12 DSP',
+                'Ausgangsleistung': '4 x 70W RMS @ 4Ω',
+                'DSP Kanäle': '8 Eingang / 12 Ausgang',
+                'Front-Lautsprecher': 'Gladen Aerospace 165 BMW (6.5" Komponenten)',
+                'Heck-Lautsprecher': 'Gladen Aerospace 130 BMW (5.25" Koaxial)',
+                'Frequenzgang': '35Hz - 22kHz',
+                'Empfindlichkeit': '91dB @ 1W/1m',
+                'Kompatible BMW Modelle': '1/2/3/4/5/X Serie (2005-2025)',
+                'Einbauort': 'Unter dem Sitz (Verstärker)',
+                'Garantie': '2 Jahre Herstellergarantie'
+            },
+            installation: 'Komplettes Plug & Play System mit BMW-spezifischen Steckern. Kein Schneiden oder Spleißen der Werksverkabelung. Professioneller Einbau empfohlen (3-4 Stunden). Inklusive DSP-Tuning und Kalibrierung. System integriert sich nahtlos in alle BMW Werkselektronik einschließlich iDrive, Navigation und Premium Audio Optionen.'
+        },
+        'vag': {
+            title: 'VW / Seat / Skoda Sound-System',
+            subtitle: 'Gladen SoundUP VAG Komplettpaket',
+            components: [
+                'Mosconi Gladen Pico 4|10 DSP - 4-Kanal Digitalverstärker mit Subwoofer-Ausgang',
+                'Gladen Audio HG 200 Subwoofer - 200mm (8") Hochleistungs-Basstreiber',
+                'Maßgeschneidertes geschlossenes Subwoofer-Gehäuse für VAG Fahrzeuge',
+                'Gladen Alpha 165 - 2-Wege-Komponentensystem (Fronttüren)',
+                'Gladen Alpha 130 - Koaxiallautsprecher (Heckablage)',
+                'VAG-spezifisches Plug & Play Kabelset (VW/Seat/Skoda)',
+                'Hochwertige Lautsprecher- und Stromkabel',
+                'Komplettes Montage- und Installationsmaterial'
+            ],
+            features: [
+                'Komplette Klangverwandlung für Volkswagen, Seat und Skoda Fahrzeuge',
+                'Leistungsstarker 200mm Subwoofer liefert tiefen, kontrollierten Bass ohne Kofferraum-Verlust',
+                'Kompaktes geschlossenes Gehäuse speziell für VAG Kofferräume entwickelt',
+                '4-Kanal DSP Verstärker mit dediziertem Subwoofer-Kanal und Tuning',
+                'Premium Gladen Alpha Lautsprecher ersetzen alle Werkslautsprecher',
+                'Plug & Play Installation mit Werks-Steckern von VW/Seat/Skoda',
+                'Werksradio und Lenkradbedienung vollständig erhalten',
+                'Professionelles DSP-Tuning für optimale Frequenzantwort und Abbildung',
+                'Deutsche Ingenieurskunst und Verarbeitungsqualität durchgehend'
+            ],
+            specs: {
+                'Verstärker Modell': 'Mosconi Gladen Pico 4|10 DSP',
+                'Kanalleistung': '4 x 55W RMS @ 4Ω',
+                'Subwoofer Kanal': '1 x 200W RMS @ 4Ω',
+                'Subwoofer Treiber': 'Gladen HG 200 (200mm / 8")',
+                'Subwoofer Belastbarkeit': '200W RMS / 400W Peak',
+                'Front-Lautsprecher': 'Gladen Alpha 165 (6.5" Komponenten)',
+                'Heck-Lautsprecher': 'Gladen Alpha 130 (5.25" Koaxial)',
+                'Frequenzbereich': '28Hz - 22kHz (Gesamtsystem)',
+                'Gehäusetyp': 'Geschlossen MDF - VAG-spezifisch',
+                'DSP Funktionen': 'Time Alignment, EQ, Crossover, Phasensteuerung',
+                'Kompatible Modelle': 'VW Golf VI/VII/VIII, Passat B7/B8, Tiguan, Touran / Seat Leon, Ibiza, Ateca / Skoda Octavia, Superb, Kodiaq (2010+)',
+                'Einbauzeit': '5-6 Stunden professionell',
+                'Garantie': '2 Jahre Herstellergarantie'
+            },
+            installation: 'Professioneller Einbau dringend empfohlen für optimale Ergebnisse. System verwendet VAG-spezifische Plug & Play Stecker - kein Schneiden der Werksverkabelung. Subwoofer-Gehäuse wird im Kofferraum mit Werks-Befestigungspunkten montiert. DSP-Tuning und Systemkalibrierung inklusive. Einbauzeit: 5-6 Stunden. Behält alle Werksfunktionen einschließlich Bluetooth, Navigation und Parksensoren.'
+        },
+        'no22': {
+            title: 'BMW Sound-System',
+            subtitle: 'Paket No.22 - CLASSE',
+            components: ['Gladen Aerospace 165 BMW Lautsprecher', 'Gladen RS 130 BMW Lautsprecher', 'Mosconi Gladen DSP 6to8', 'BMW Plug & Play Kabelset', 'Premium Kabel'],
+            features: ['Hochleistungs-Lautsprecher', 'Erweiterte DSP-Verarbeitung', 'Werksintegration', 'Deutsche Qualität'],
+            specs: {'Ausgangsleistung': '8x65W RMS', 'Front-Lautsprecher': 'Aerospace 165', 'Heck-Lautsprecher': 'RS 130'},
+            installation: 'Plug & Play. Professioneller Einbau 4-5 Stunden.'
+        },
+        'no23': {
+            title: 'BMW Sound-System',
+            subtitle: 'Paket No.23 - CLASSE',
+            components: ['Gladen Alpha 165 BMW', 'Gladen Alpha 130 BMW', 'Mosconi AS 100.4', 'DSP 4to6 Prozessor', 'BMW Stecker'],
+            features: ['Premium Alpha Lautsprecher', 'Separater DSP und Verstärker', 'Professionelle Verarbeitung'],
+            specs: {'Verstärker Leistung': '4x100W @ 4Ω', 'DSP': '4ein/6aus'},
+            installation: 'Professioneller Einbau 5-6 Stunden.'
+        },
+        'no24': {
+            title: 'BMW Sound-System',
+            subtitle: 'Paket No.24 - CLASSE',
+            components: ['Gladen ONE 165 BMW', 'Gladen ONE 130 BMW', 'Mosconi Gladen One 120.4 DSP', 'BMW Kabelset'],
+            features: ['Flagship ONE Serie', 'Integrierter DSP-Verstärker', 'Referenz-Leistung'],
+            specs: {'Ausgangsleistung': '4x120W RMS', 'Verzerrung': '<0.01%'},
+            installation: 'Premium-Einbau 6-7 Stunden.'
+        },
+        'no242': {
+            title: 'BMW Sound-System',
+            subtitle: 'Paket No.242 - CLASSE',
+            components: ['Gladen Aerospace 165 BMW-2', 'Aerospace 100 Center', 'Pico 8|12 DSP', 'Komplettes Kabelset'],
+            features: ['3-Wege Front-Bühne', 'Center-Kanal Abbildung', 'Audiophile Qualität'],
+            specs: {'Konfiguration': '3-Wege + Heck', 'Kanäle': '8'},
+            installation: 'Experten-Einbau 7-8 Stunden.'
+        },
+        'no25': {
+            title: 'BMW Sound-System',
+            subtitle: 'Paket No.25 - CLASSE',
+            components: ['Gladen RS 165 BMW', 'Gladen RS-X 130 BMW', 'Mosconi Zero 4 DSP', 'OFC Kabel'],
+            features: ['Wettkampf-RS Serie', 'Ultra-niedrige Verzerrung', 'Referenz-Transparenz'],
+            specs: {'Leistung': '4x100W @ 2Ω', 'Verzerrung': '<0.005%'},
+            installation: 'Audiophiler Einbau 6-8 Stunden.'
+        },
+        'no26': {
+            title: 'BMW Sound-System',
+            subtitle: 'Paket No.26 - CLASSE',
+            components: ['Gladen Aerospace 165 BMW-3', 'Aerospace 130 BMW-3', 'DSP 8to12 Pro', 'Universal Kabelset'],
+            features: ['Neueste Aerospace Generation', '12-Kanal DSP', 'Netzwerk-Streaming'],
+            specs: {'DSP Ausgänge': '12 Kanäle', 'Verarbeitung': '96kHz/32-Bit'},
+            installation: 'Meister-Einbau 8-10 Stunden.'
+        },
+        'pico': {
+            title: 'BMW Kompakt-System',
+            subtitle: 'Gladen Pico Package',
+            components: ['Gladen Aerospace 165 BMW', 'Aerospace 130 BMW', 'Pico 8|12 DSP', 'Untersitz-Halterungen'],
+            features: ['Ultra-kompaktes Design', 'Untersitz-Einbau', 'Kein Kofferraum-Verlust'],
+            specs: {'Größe': '195x132x48mm', 'Gewicht': '1.2kg'},
+            installation: 'Einfacher Einbau 3-4 Stunden.'
+        }
+    }
+};
