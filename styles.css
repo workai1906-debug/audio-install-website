@@ -635,25 +635,55 @@ body.desktop-mode .version-switcher {
     }
 
     /* Mobile-specific styles (only when NOT in desktop mode) */
-    body:not(.desktop-mode) .nav-links {
-        flex-direction: column;
-        gap: 0.5rem;
-        margin-top: 1rem;
+    body:not(.desktop-mode) .navbar {
+        padding: 0.5rem 0;
     }
 
     body:not(.desktop-mode) .navbar .container {
-        flex-direction: column;
-        align-items: flex-start;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 0 15px;
+    }
+
+    body:not(.desktop-mode) .logo h1 {
+        font-size: 1.2rem;
+        margin-bottom: 0;
+    }
+
+    body:not(.desktop-mode) .tagline {
+        display: none; /* Hide tagline on mobile */
+    }
+
+    body:not(.desktop-mode) .nav-links {
+        display: flex;
+        flex-direction: row;
+        gap: 0.8rem;
+        width: 100%;
+        justify-content: space-around;
+        margin-top: 0.5rem;
+        font-size: 0.85rem;
+    }
+
+    body:not(.desktop-mode) .nav-links li {
+        flex: 1;
+        text-align: center;
+    }
+
+    body:not(.desktop-mode) .nav-links a {
+        display: block;
+        padding: 0.3rem 0;
     }
 
     body:not(.desktop-mode) .language-switcher {
-        margin-left: 0;
-        margin-top: 0.5rem;
+        margin-left: auto;
+        margin-top: 0;
+        order: 2;
     }
 
     body:not(.desktop-mode) .hero {
-        padding: 100px 15px 60px;
-        margin-top: 60px;
+        padding: 80px 15px 50px;
+        margin-top: 90px; /* Space for compact navbar */
     }
 
     body:not(.desktop-mode) .hero-content h2 {
