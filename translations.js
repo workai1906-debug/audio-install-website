@@ -24,6 +24,8 @@ const translations = {
         'package.badge.plugplay': 'Plug & Play',
         'package.badge.compact': 'Compact',
         'package.badge.vag': 'VAG Group',
+        'package.badge.steg': 'STEG Audio',
+        'package.badge.sprinter': 'Mercedes',
         'package.btn.details': 'View Details',
 
         // Modal
@@ -77,6 +79,20 @@ const translations = {
         'pkg.vw.system': 'VW / Seat / Skoda Sound System',
         'pkg.compact': 'BMW Compact System',
         'pkg.compact.pico': 'Gladen Style E-F Series',
+
+        // STEG Package
+        'pkg.steg.title': 'STEG Acoustics Collection',
+        'pkg.preview.steg.feat1': 'MS 650 - Coaxial Speakers 60W RMS',
+        'pkg.preview.steg.feat2': 'LEO 650C - Component System 60W RMS',
+        'pkg.preview.steg.feat3': 'SQL 650C - Component System 80W RMS',
+        'pkg.preview.steg.feat4': 'High-Quality Italian Audio',
+
+        // Mercedes Sprinter Package
+        'pkg.sprinter.title': 'Mercedes Sprinter 2018-2022',
+        'pkg.preview.sprinter.feat1': 'TEYE CC3 2K - Premium Quality DSP',
+        'pkg.preview.sprinter.feat2': 'BLAM 165ES - Loudest & Best Sounding',
+        'pkg.preview.sprinter.feat3': 'Nakamichi NBF10.3A - Active Subwoofer',
+        'pkg.preview.sprinter.feat4': 'Budget Solution with Great Bass',
 
         // Package card previews
         'pkg.preview.no21.feat1': 'Gladen Aerospace Speakers',
@@ -153,6 +169,8 @@ const translations = {
         'package.badge.plugplay': 'Plug & Play',
         'package.badge.compact': 'Компактна',
         'package.badge.vag': 'VAG Group',
+        'package.badge.steg': 'STEG Audio',
+        'package.badge.sprinter': 'Mercedes',
         'package.btn.details': 'Детальніше',
 
         // Модальне вікно
@@ -202,6 +220,20 @@ const translations = {
         'pkg.vw.system': 'Аудіосистема VW / Seat / Skoda',
         'pkg.compact': 'Компактна Система BMW',
         'pkg.compact.pico': 'Gladen Style E-F Серія',
+
+        // STEG Пакет
+        'pkg.steg.title': 'Колекція STEG Acoustics',
+        'pkg.preview.steg.feat1': 'MS 650 - Коаксіальні динаміки 60Вт RMS',
+        'pkg.preview.steg.feat2': 'LEO 650C - Компонентна система 60Вт RMS',
+        'pkg.preview.steg.feat3': 'SQL 650C - Компонентна система 80Вт RMS',
+        'pkg.preview.steg.feat4': 'Високоякісна італійська акустика',
+
+        // Mercedes Sprinter Пакет
+        'pkg.sprinter.title': 'Mercedes Sprinter 2018-2022',
+        'pkg.preview.sprinter.feat1': 'TEYE CC3 2K - Преміум якість DSP',
+        'pkg.preview.sprinter.feat2': 'BLAM 165ES - Найгучніші і найкращі',
+        'pkg.preview.sprinter.feat3': 'Nakamichi NBF10.3A - Активний сабвуфер',
+        'pkg.preview.sprinter.feat4': 'Бюджетне рішення з чудовим басом',
 
         // Превью карток пакетів
         'pkg.preview.no21.feat1': 'Динаміки Gladen Aerospace',
@@ -278,6 +310,8 @@ const translations = {
         'package.badge.plugplay': 'Plug & Play',
         'package.badge.compact': 'Kompakt',
         'package.badge.vag': 'VAG Gruppe',
+        'package.badge.steg': 'STEG Audio',
+        'package.badge.sprinter': 'Mercedes',
         'package.btn.details': 'Details Ansehen',
 
         // Modal
@@ -327,6 +361,20 @@ const translations = {
         'pkg.vw.system': 'VW / Seat / Skoda Sound-System',
         'pkg.compact': 'BMW Kompakt-System',
         'pkg.compact.pico': 'Gladen Style E-F Serie',
+
+        // STEG Paket
+        'pkg.steg.title': 'STEG Acoustics Kollektion',
+        'pkg.preview.steg.feat1': 'MS 650 - Koaxial-Lautsprecher 60W RMS',
+        'pkg.preview.steg.feat2': 'LEO 650C - Komponenten-System 60W RMS',
+        'pkg.preview.steg.feat3': 'SQL 650C - Komponenten-System 80W RMS',
+        'pkg.preview.steg.feat4': 'Hochwertige italienische Akustik',
+
+        // Mercedes Sprinter Paket
+        'pkg.sprinter.title': 'Mercedes Sprinter 2018-2022',
+        'pkg.preview.sprinter.feat1': 'TEYE CC3 2K - Premium Qualität DSP',
+        'pkg.preview.sprinter.feat2': 'BLAM 165ES - Lauteste und beste Klang',
+        'pkg.preview.sprinter.feat3': 'Nakamichi NBF10.3A - Aktiver Subwoofer',
+        'pkg.preview.sprinter.feat4': 'Budget-Lösung mit tollem Bass',
 
         // Paket-Karten Vorschau
         'pkg.preview.no21.feat1': 'Gladen Aerospace Lautsprecher',

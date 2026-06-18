@@ -84,6 +84,91 @@ const packageTranslations = {
             },
             installation: 'Professional installation highly recommended for optimal results. System uses VAG-specific Plug & Play connectors - no cutting of factory wiring. Subwoofer enclosure mounts in trunk using factory mounting points. DSP tuning and system calibration included. Installation time: 5-6 hours. Maintains all factory functions including Bluetooth, navigation, and parking sensors.'
         },
+        'steg': {
+            title: 'STEG Acoustics Collection',
+            subtitle: 'High-Quality Italian Audio',
+            components: [
+                'STEG MS 650 - Coaxial speakers (60W RMS, 2.8Ω, 64mm depth)',
+                'STEG LEO 650C - Component system (60W RMS, Re=3.1Ω, 63mm depth)',
+                'STEG SQL 650C - Component system (80W RMS, 3Ω, 68mm depth)',
+                'All mounting hardware and accessories included',
+                'Professional installation available'
+            ],
+            features: [
+                'High-quality Italian acoustics - exceptional value and performance',
+                'MS 650 - Full-range coaxial speakers for rear channels or budget front upgrade',
+                'LEO 650C - Mid-range component system with separate tweeters',
+                'SQL 650C - Premium component system with higher power handling',
+                'Excellent frequency response and clarity across all models',
+                'Compact mounting depth fits most vehicles',
+                'Works great without amplifier or even better with dedicated power',
+                'Can be professionally tested before purchase',
+                'Suitable for various vehicle types and audio systems'
+            ],
+            specs: {
+                'MS 650 Power': '60W RMS',
+                'MS 650 Impedance': '2.8Ω',
+                'MS 650 Depth': '64mm',
+                'MS 650 Price': '6,500 UAH',
+                'LEO 650C Power': '60W RMS',
+                'LEO 650C Impedance': 'Re=3.1Ω',
+                'LEO 650C Depth': '63mm',
+                'LEO 650C Price': '7,000 UAH',
+                'SQL 650C Power': '80W RMS',
+                'SQL 650C Impedance': '3Ω',
+                'SQL 650C Depth': '68mm',
+                'SQL 650C Price': '8,000 UAH',
+                'Frequency Range': '50Hz - 20kHz (typical)',
+                'Type': 'Coaxial / Component systems',
+                'Installation Time': '2-3 hours',
+                'Warranty': '1 year manufacturer warranty'
+            },
+            installation: 'Professional installation available for all STEG models. Coaxial speakers (MS 650) are simplest to install - direct replacement for factory speakers. Component systems (LEO 650C, SQL 650C) require separate tweeter mounting. All models work with factory head units but sound significantly better with amplifier. Test listening available before purchase.'
+        },
+        'sprinter': {
+            title: 'Mercedes Sprinter 2018-2022 Complete Audio System',
+            subtitle: 'Best Sound Package for Your Van',
+            components: [
+                'TEYE CC3 2K - Premium quality head unit with DSP, 2K display, fast processor (4GB+64GB)',
+                'BLAM 165ES - Loudest and best sounding 6.5" component speakers',
+                'Nakamichi NBF10.3A - Active under-seat subwoofer with built-in amplifier',
+                'Complete wiring and installation kit',
+                'Custom installation brackets for Sprinter',
+                'Professional installation included'
+            ],
+            features: [
+                'Best complete sound package specifically for Mercedes Sprinter 2018-2022',
+                'TEYE CC3 2K - Premium head unit with excellent sound quality and DSP',
+                'High-resolution 2K display for crisp visuals',
+                'Fast processor (4GB RAM + 64GB storage) ensures smooth operation',
+                'BLAM 165ES - The loudest and best sounding speakers in this class',
+                'Works perfectly even without additional amplifier',
+                'Nakamichi NBF10.3A - Budget-friendly active subwoofer with great bass',
+                'Easy installation under driver or passenger seat',
+                'Lightweight and compact design ideal for vans',
+                'Complete transformation of factory Sprinter sound system',
+                'Installation possible by prior appointment',
+                'Total package price: €463 + BLAM €118 + Nakamichi €155'
+            ],
+            specs: {
+                'Head Unit': 'TEYE CC3 2K',
+                'Display Resolution': '2K (high resolution)',
+                'Processor': 'Fast 4-core',
+                'RAM': '4GB',
+                'Storage': '64GB',
+                'DSP': 'Built-in digital signal processing',
+                'Speakers': 'BLAM 165ES (6.5" component)',
+                'Speaker Power Handling': '80W RMS',
+                'Subwoofer': 'Nakamichi NBF10.3A (10" active)',
+                'Subwoofer Power': 'Built-in amplifier',
+                'Total System Power': '200W+',
+                'Compatible Model': 'Mercedes-Benz Sprinter 2018-2022',
+                'Installation Time': '4-5 hours',
+                'Total Price': '€736 (≈31,000 UAH)',
+                'Warranty': 'Manufacturer warranty on all components'
+            },
+            installation: 'Complete professional installation available for Mercedes Sprinter 2018-2022. Head unit replaces factory radio with all functionality retained. Speakers install in front doors with custom brackets. Active subwoofer mounts under driver or passenger seat - no trunk space lost. All wiring custom fitted for clean OEM appearance. Installation by appointment only. Complete system provides dramatic sound improvement over factory audio.'
+        },
         'no22': {
             title: 'BMW Sound System No.22',
             subtitle: '',
@@ -457,6 +542,91 @@ const packageTranslations = {
             },
             installation: 'Настійно рекомендується професійна установка для оптимальних результатів. Система використовує VAG-специфічні роз\'єми Plug & Play - без різання штатної проводки. Корпус сабвуфера встановлюється в багажнику з використанням штатних точок кріплення. Включає налаштування DSP та калібрування системи. Час встановлення: 5-6 годин. Зберігає всі заводські функції, включаючи Bluetooth, навігацію та паркувальні датчики.'
         },
+        'steg': {
+            title: 'Колекція STEG Acoustics',
+            subtitle: 'Високоякісна італійська акустика',
+            components: [
+                'STEG MS 650 - Коаксіальні динаміки (60Вт RMS, 2,8Ом, глибина 64мм)',
+                'STEG LEO 650C - Компонентна система (60Вт RMS, Re=3,1Ом, глибина 63мм)',
+                'STEG SQL 650C - Компонентна система (80Вт RMS, 3Ом, глибина 68мм)',
+                'Всі кріплення та аксесуари в комплекті',
+                'Доступна професійна установка'
+            ],
+            features: [
+                'Високоякісна італійська акустика - виняткове співвідношення ціни та якості',
+                'MS 650 - Повнодіапазонні коаксіальні динаміки для задніх каналів або бюджетного апгрейду',
+                'LEO 650C - Середньокласна компонентна система з окремими твітерами',
+                'SQL 650C - Преміум компонентна система з вищою потужністю',
+                'Відмінна частотна характеристика та чіткість на всіх моделях',
+                'Компактна глибина монтажу підходить для більшості автомобілів',
+                'Чудово працює без підсилювача або ще краще з окремим живленням',
+                'Можливе професійне прослуховування перед покупкою',
+                'Підходить для різних типів автомобілів та аудіосистем'
+            ],
+            specs: {
+                'MS 650 Потужність': '60Вт RMS',
+                'MS 650 Імпеданс': '2,8Ом',
+                'MS 650 Глибина': '64мм',
+                'MS 650 Ціна': '6 500 грн',
+                'LEO 650C Потужність': '60Вт RMS',
+                'LEO 650C Імпеданс': 'Re=3,1Ом',
+                'LEO 650C Глибина': '63мм',
+                'LEO 650C Ціна': '7 000 грн',
+                'SQL 650C Потужність': '80Вт RMS',
+                'SQL 650C Імпеданс': '3Ом',
+                'SQL 650C Глибина': '68мм',
+                'SQL 650C Ціна': '8 000 грн',
+                'Частотний Діапазон': '50Гц - 20кГц (типово)',
+                'Тип': 'Коаксіальні / Компонентні системи',
+                'Час Встановлення': '2-3 години',
+                'Гарантія': '1 рік гарантії виробника'
+            },
+            installation: 'Професійна установка доступна для всіх моделей STEG. Коаксіальні динаміки (MS 650) найпростіші у встановленні - пряма заміна штатних динаміків. Компонентні системи (LEO 650C, SQL 650C) потребують окремого монтажу твітерів. Всі моделі працюють зі штатними головними пристроями, але звучать значно краще з підсилювачем. Доступне тестове прослуховування перед покупкою.'
+        },
+        'sprinter': {
+            title: 'Повна аудіосистема Mercedes Sprinter 2018-2022',
+            subtitle: 'Найкращий звуковий пакет для вашого фургона',
+            components: [
+                'TEYE CC3 2K - Преміум якість головний пристрій з DSP, 2K дисплей, швидкий процесор (4ГБ+64ГБ)',
+                'BLAM 165ES - Найгучніші та найкраще звучачі 6.5" компонентні динаміки',
+                'Nakamichi NBF10.3A - Активний підсидільний сабвуфер з вбудованим підсилювачем',
+                'Повний комплект проводки та встановлення',
+                'Спеціальні кронштейни для Sprinter',
+                'Професійна установка включена'
+            ],
+            features: [
+                'Найкращий повний звуковий пакет спеціально для Mercedes Sprinter 2018-2022',
+                'TEYE CC3 2K - Преміум головний пристрій з чудовою якістю звуку та DSP',
+                'Високороздільний 2K дисплей для чіткого зображення',
+                'Швидкий процесор (4ГБ RAM + 64ГБ пам\'яті) забезпечує плавну роботу',
+                'BLAM 165ES - Найгучніші та найкраще звучачі динаміки в цьому класі',
+                'Працює ідеально навіть без додаткового підсилювача',
+                'Nakamichi NBF10.3A - Бюджетний активний сабвуфер з чудовим басом',
+                'Легка установка під водійське або пасажирське сидіння',
+                'Легка та компактна конструкція ідеальна для фургонів',
+                'Повна трансформація штатної звукової системи Sprinter',
+                'Установка можлива за попереднім записом',
+                'Загальна вартість пакету: €463 + BLAM €118 + Nakamichi €155'
+            ],
+            specs: {
+                'Головний Пристрій': 'TEYE CC3 2K',
+                'Роздільність Дисплею': '2K (висока роздільність)',
+                'Процесор': 'Швидкий 4-ядерний',
+                'RAM': '4ГБ',
+                'Пам\'ять': '64ГБ',
+                'DSP': 'Вбудована цифрова обробка сигналу',
+                'Динаміки': 'BLAM 165ES (6.5" компонентні)',
+                'Потужність Динаміків': '80Вт RMS',
+                'Сабвуфер': 'Nakamichi NBF10.3A (10" активний)',
+                'Потужність Сабвуфера': 'Вбудований підсилювач',
+                'Загальна Потужність': '200Вт+',
+                'Сумісна Модель': 'Mercedes-Benz Sprinter 2018-2022',
+                'Час Встановлення': '4-5 годин',
+                'Загальна Ціна': '€736 (≈31 000 грн)',
+                'Гарантія': 'Гарантія виробника на всі компоненти'
+            },
+            installation: 'Доступна повна професійна установка для Mercedes Sprinter 2018-2022. Головний пристрій замінює штатне радіо зі збереженням всієї функціональності. Динаміки встановлюються у передні двері зі спеціальними кронштейнами. Активний сабвуфер монтується під водійське або пасажирське сидіння - без втрати місця в багажнику. Вся проводка спеціально підігнана для чистого OEM вигляду. Установка тільки за попереднім записом. Повна система забезпечує драматичне покращення звуку порівняно зі штатним аудіо.'
+        },
         'no22': {
             title: 'Аудіосистема BMW No.22',
             subtitle: '',
@@ -785,6 +955,91 @@ const packageTranslations = {
                 'Garantie': '2 Jahre Herstellergarantie'
             },
             installation: 'Professioneller Einbau dringend empfohlen für optimale Ergebnisse. System verwendet VAG-spezifische Plug & Play Stecker - kein Schneiden der Werksverkabelung. Subwoofer-Gehäuse wird im Kofferraum mit Werks-Befestigungspunkten montiert. DSP-Tuning und Systemkalibrierung inklusive. Einbauzeit: 5-6 Stunden. Behält alle Werksfunktionen einschließlich Bluetooth, Navigation und Parksensoren.'
+        },
+        'steg': {
+            title: 'STEG Acoustics Kollektion',
+            subtitle: 'Hochwertige italienische Akustik',
+            components: [
+                'STEG MS 650 - Koaxial-Lautsprecher (60W RMS, 2,8Ω, 64mm Tiefe)',
+                'STEG LEO 650C - Komponenten-System (60W RMS, Re=3,1Ω, 63mm Tiefe)',
+                'STEG SQL 650C - Komponenten-System (80W RMS, 3Ω, 68mm Tiefe)',
+                'Alle Befestigungen und Zubehör im Lieferumfang',
+                'Professioneller Einbau verfügbar'
+            ],
+            features: [
+                'Hochwertige italienische Akustik - außergewöhnliches Preis-Leistungs-Verhältnis',
+                'MS 650 - Vollbereichs-Koaxiallautsprecher für hintere Kanäle oder Budget-Upgrade',
+                'LEO 650C - Mittelklasse-Komponentensystem mit separaten Hochtönern',
+                'SQL 650C - Premium-Komponentensystem mit höherer Leistung',
+                'Hervorragender Frequenzgang und Klarheit bei allen Modellen',
+                'Kompakte Einbautiefe passt zu den meisten Fahrzeugen',
+                'Funktioniert hervorragend ohne Verstärker oder noch besser mit dedizierter Leistung',
+                'Professionelles Probehören vor dem Kauf möglich',
+                'Geeignet für verschiedene Fahrzeugtypen und Audiosysteme'
+            ],
+            specs: {
+                'MS 650 Leistung': '60W RMS',
+                'MS 650 Impedanz': '2,8Ω',
+                'MS 650 Tiefe': '64mm',
+                'MS 650 Preis': '6.500 UAH',
+                'LEO 650C Leistung': '60W RMS',
+                'LEO 650C Impedanz': 'Re=3,1Ω',
+                'LEO 650C Tiefe': '63mm',
+                'LEO 650C Preis': '7.000 UAH',
+                'SQL 650C Leistung': '80W RMS',
+                'SQL 650C Impedanz': '3Ω',
+                'SQL 650C Tiefe': '68mm',
+                'SQL 650C Preis': '8.000 UAH',
+                'Frequenzbereich': '50Hz - 20kHz (typisch)',
+                'Typ': 'Koaxial / Komponenten-Systeme',
+                'Einbauzeit': '2-3 Stunden',
+                'Garantie': '1 Jahr Herstellergarantie'
+            },
+            installation: 'Professioneller Einbau für alle STEG-Modelle verfügbar. Koaxiallautsprecher (MS 650) sind am einfachsten zu installieren - direkter Austausch für Werkslautsprecher. Komponentensysteme (LEO 650C, SQL 650C) erfordern separate Hochtöner-Montage. Alle Modelle funktionieren mit Werks-Hauptgeräten, klingen aber deutlich besser mit Verstärker. Probehören vor dem Kauf möglich.'
+        },
+        'sprinter': {
+            title: 'Mercedes Sprinter 2018-2022 Komplettes Audio-System',
+            subtitle: 'Bestes Sound-Paket für Ihren Van',
+            components: [
+                'TEYE CC3 2K - Premium-Qualität Hauptgerät mit DSP, 2K-Display, schneller Prozessor (4GB+64GB)',
+                'BLAM 165ES - Lauteste und am besten klingende 6.5" Komponenten-Lautsprecher',
+                'Nakamichi NBF10.3A - Aktiver Untersitz-Subwoofer mit eingebautem Verstärker',
+                'Komplettes Verkabelungs- und Installationskit',
+                'Maßgeschneiderte Einbauhalterungen für Sprinter',
+                'Professioneller Einbau inklusive'
+            ],
+            features: [
+                'Bestes komplettes Sound-Paket speziell für Mercedes Sprinter 2018-2022',
+                'TEYE CC3 2K - Premium-Hauptgerät mit hervorragender Klangqualität und DSP',
+                'Hochauflösendes 2K-Display für gestochen scharfe Bilder',
+                'Schneller Prozessor (4GB RAM + 64GB Speicher) sorgt für reibungslosen Betrieb',
+                'BLAM 165ES - Die lautesten und am besten klingenden Lautsprecher in dieser Klasse',
+                'Funktioniert perfekt auch ohne zusätzlichen Verstärker',
+                'Nakamichi NBF10.3A - Budget-freundlicher aktiver Subwoofer mit tollem Bass',
+                'Einfache Installation unter Fahrer- oder Beifahrersitz',
+                'Leichtes und kompaktes Design ideal für Vans',
+                'Komplette Transformation des Werks-Sound-Systems im Sprinter',
+                'Installation nur nach Terminvereinbarung möglich',
+                'Gesamtpreis des Pakets: €463 + BLAM €118 + Nakamichi €155'
+            ],
+            specs: {
+                'Hauptgerät': 'TEYE CC3 2K',
+                'Display-Auflösung': '2K (hohe Auflösung)',
+                'Prozessor': 'Schneller 4-Kern',
+                'RAM': '4GB',
+                'Speicher': '64GB',
+                'DSP': 'Eingebaute digitale Signalverarbeitung',
+                'Lautsprecher': 'BLAM 165ES (6.5" Komponenten)',
+                'Lautsprecher Belastbarkeit': '80W RMS',
+                'Subwoofer': 'Nakamichi NBF10.3A (10" aktiv)',
+                'Subwoofer Leistung': 'Eingebauter Verstärker',
+                'Gesamtsystem-Leistung': '200W+',
+                'Kompatibles Modell': 'Mercedes-Benz Sprinter 2018-2022',
+                'Einbauzeit': '4-5 Stunden',
+                'Gesamtpreis': '€736 (≈31.000 UAH)',
+                'Garantie': 'Herstellergarantie auf alle Komponenten'
+            },
+            installation: 'Kompletter professioneller Einbau verfügbar für Mercedes Sprinter 2018-2022. Hauptgerät ersetzt Werksradio mit voller Funktionalität. Lautsprecher werden in Vordertüren mit Spezialhalterungen eingebaut. Aktiver Subwoofer wird unter Fahrer- oder Beifahrersitz montiert - kein Kofferraum-Verlust. Alle Verkabelungen speziell angepasst für sauberes OEM-Aussehen. Einbau nur nach Terminvereinbarung. Komplettes System liefert dramatische Klangverbesserung gegenüber Werks-Audio.'
         },
         'no22': {
             title: 'BMW Sound-System No.22',

@@ -342,6 +342,16 @@ const packageDetails = {
             'Warranty': '2 years manufacturer warranty'
         },
         installation: 'Professional installation highly recommended for optimal results. System uses VAG-specific Plug & Play connectors - no cutting of factory wiring. Subwoofer enclosure mounts in trunk using factory mounting points. DSP tuning and system calibration included. Installation time: 5-6 hours. Maintains all factory functions including Bluetooth, navigation, and parking sensors.'
+    },
+    'steg': {
+        title: 'STEG Acoustics Collection',
+        subtitle: 'High-Quality Italian Audio',
+        image: 'packages/steg-acoustics.jpg'
+    },
+    'sprinter': {
+        title: 'Mercedes Sprinter 2018-2022',
+        subtitle: 'Complete Audio System',
+        image: 'packages/mercedes-sprinter.jpg'
     }
 };
 
